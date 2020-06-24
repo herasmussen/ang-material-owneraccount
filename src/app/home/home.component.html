@@ -1,0 +1,19 @@
+<section fxLayout="column wrap">
+  <div fxFlexAlign="center">
+    <p>Welcome to Material Angular OwnerAccount application</p>
+  </div>
+
+  <p>In this application we are going to work with:</p>
+
+  <mat-tab-group (selectedTabChange)="onSelectedTabChange($event)" >
+    <mat-tab label="Material Components">
+      <p>We are going to use different material components to create a nice looking Angular application.</p>
+    </mat-tab>
+    <mat-tab label="Consume .NET Core Web Api">
+      <p>We will consume out .NET Core application. basically, we will create complete CRUD client only.</p>
+    </mat-tab>
+    <mat-tab label="Fully responsive navigation menu">
+      <p>By using Material components, we are going to create a fully responsive navigation menu, with it's side-bar as well.</p>
+    </mat-tab>
+  </mat-tab-group>
+</section>
